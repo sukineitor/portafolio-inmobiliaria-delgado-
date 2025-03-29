@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Digital - Delgado Propiedades</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <a href="index.html" class="logo">
+                        <img src="logo/propiedadedelgado.png" alt="Delgado Propiedades Logo" class="header-image">
+                    </a>
+                </div>
+                <div class="logo-text">
+                    <h1>DELGADO</h1>
+                    <div class="logo-subtitle">
+                        <div class="logo-line"></div>
+                        <p>Propiedades</p>
+                    </div>
+                </div>
+            </div>
+            
+            <nav class="desktop-nav">
+                <button class="nav-link active" data-tab="inicio">Inicio</button>
+                <button class="nav-link" data-tab="encuestas">Encuestas</button>
+                <button class="nav-link" data-tab="contacto">Contacto</button>
+            </nav>
+            
+            <button class="mobile-menu-btn">
+                <div class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+        
+        <div class="mobile-nav">
+            <div class="container">
+                <button class="nav-link" data-tab="inicio">Inicio</button>
+                <button class="nav-link" data-tab="encuestas">Encuestas</button>
+                <button class="nav-link" data-tab="contacto">Contacto</button>
+            </div>
+        </div>
+    </header>
+    
+    <div class="social-sidebar">
+        <a href="https://web.facebook.com/MDelgadoPropiedades" target="_blank" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/delgado_propiedades" target="_blank" title="Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com/@delgado_propiedades" target="_blank" title="Tiktok">
+            <i class="fab fa-tiktok"></i>
+        </a>
+    </div>
+    
+    <main>
+        <!-- Sección Inicio -->
+        <section id="inicio" class="tab-content active">
+            <div class="hero">
+                <div class="hero-overlay"></div>
+                <div class="container hero-content">
+                    <h1>Portafolio Digital Delgado Propiedades</h1>
+                    <p>Descubre nuestras aplicaciones, sitios web y proyectos digitales desarrollados para ofrecer la mejor experiencia inmobiliaria.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-tab="encuestas">
+                            Participar en Encuestas <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-outline" data-tab="contacto">
+                            Contáctanos
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="social-section">
+                    <div class="section-title">
+                        <h2>Síguenos en Redes Sociales</h2>
+                        <p>Mantente al día con nuestros últimos proyectos y novedades.</p>
+                    </div>
+                    
+                    <div class="social-grid">
+                        <a href="https://web.facebook.com/MDelgadoPropiedades" target="_blank" class="social-card">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/delgado_propiedades" target="_blank" class="social-card">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.tiktok.com/@delgado_propiedades" target="_blank" class="social-card">
+                            <i class="fab fa-tiktok"></i>
+                            <span>Tiktok</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="quick-links">
+                    <div class="quick-link-card" data-tab="encuestas">
+                        <div class="icon-circle">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <h3>Encuestas</h3>
+                        <p>Participa en nuestras encuestas y ayúdanos a mejorar nuestros servicios</p>
+                        <button class="link-btn">
+                            Ver encuestas <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="quick-link-card" data-tab="contacto">
+                        <div class="icon-circle">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Ubicación</h3>
+                        <p>Visítanos en nuestra oficina o contáctanos para más información</p>
+                        <button class="link-btn">
+                            Ver ubicación <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección Encuestas -->
+        <section id="encuestas" class="tab-content">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nuestras Encuestas</h2>
+                    <p>Tu opinión es importante para nosotros. Participa en nuestras encuestas y ayúdanos a mejorar.</p>
+                </div>
+                
+                <div class="surveys-grid">
+                    <div class="survey-card">
+                        <div class="survey-icon">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <h3>Encuesta para Nuevos Clientes</h3>
+                        <p>Si estás conociendo nuestros servicios por primera vez, nos gustaría saber más sobre tus necesidades y expectativas.</p>
+                        <p class="survey-time">Tiempo estimado: 3-5 minutos</p>
+                        <a href="https://forms.gle/8mHhskpQT36MYYXx6" target="_blank" class="btn btn-primary btn-block">
+                            Participar en la Encuesta <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="survey-card">
+                        <div class="survey-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Encuesta de Satisfacción</h3>
+                        <p>Si ya has utilizado nuestros servicios, nos encantaría conocer tu nivel de satisfacción y recibir tus comentarios.</p>
+                        <p class="survey-time">Tiempo estimado: 5-7 minutos</p>
+                        <a href="https://forms.gle/uGm8f9KGXNZQpyZQ8" target="_blank" class="btn btn-primary btn-block">
+                            Participar en la Encuesta <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="survey-info">
+                    <div class="info-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>¿Por qué son importantes tus respuestas?</h4>
+                        <p>Tu opinión nos ayuda a mejorar constantemente nuestros servicios y a adaptarnos mejor a las necesidades de nuestros clientes. Todas las respuestas son anónimas y serán utilizadas únicamente con fines de mejora interna.</p>
+                    </div>
+                </div>
+                
+                <div class="text-center">
+                    <h3>¿Prefieres contactarnos directamente?</h3>
+                    <button class="btn btn-secondary" data-tab="contacto">
+                        Ir a Contacto
+                    </button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección Contacto -->
+        <section id="contacto" class="tab-content">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nuestra Ubicación</h2>
+                    <p>Estamos ubicados en el Centro Comercial Boulevard. Visítanos o contáctanos por teléfono o correo electrónico.</p>
+                </div>
+                
+                <div class="map-container-full">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.0399376333066!2d-79.83999492414598!3d-6.7724098933387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x904ce8a4a0c5e3b7%3A0x3b0e12e9c3b7b8a!2sMariscal%20Nieto%20480%2C%20Centro%20Comercial%20Boulevard%2C%20Chiclayo%2014001%2C%20Per%C3%BA!5e0!3m2!1ses!2s!4v1648123456789!5m2!1ses!2s" 
+                        width="100%" 
+                        height="500" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info-card">
+                        <div class="info-header">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Dirección</h3>
+                        </div>
+                        <p>Mariscal Nieto 480, Centro Comercial Boulevard, Chiclayo, Perú</p>
+                        <a href="https://maps.google.com/?q=Mariscal+Nieto+480,+Centro+Comercial+Boulevard,+Chiclayo,+Perú" target="_blank" class="info-link">
+                            Abrir en Google Maps <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="info-header">
+                            <i class="fas fa-phone"></i>
+                            <h3>Teléfono</h3>
+                        </div>
+                        <p>Llámanos para consultas o para agendar una visita</p>
+                        <a href="tel:+51948734448" class="info-phone">+51 948 734 448</a>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="info-header">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                        </div>
+                        <p>Escríbenos para cualquier consulta</p>
+                        <a href="mailto:inmobiliaria.dpropiedades@gmail.com" class="info-email">inmobiliaria.dpropiedades@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-info-card">
+                        <div class="info-header">
+                            <i class="fas fa-clock"></i>
+                            <h3>Horario de Atención</h3>
+                        </div>
+                        <ul class="hours-list">
+                            <li><span>Lunes - Viernes:</span> <span>9:30 AM - 6:00 PM</span></li>
+                            <li><span>Sábados:</span> <span>9:30 AM - 6:00 PM</span></li>
+                            <li><span>Domingos:</span> <span>Cerrado</span></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="social-contact-section">
+                    <h3>Síguenos en Redes Sociales</h3>
+                    <div class="social-contact-grid">
+                        <a href="https://web.facebook.com/MDelgadoPropiedades" target="_blank" class="social-contact-card">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/delgado_propiedades" target="_blank" class="social-contact-card">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.tiktok.com/@delgado_propiedades" target="_blank" class="social-contact-card">
+                            <i class="fab fa-tiktok"></i>
+                            <span>Tiktok</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h3>DELGADO</h3>
+                            <div class="logo-subtitle">
+                                <div class="logo-line"></div>
+                                <p>Propiedades</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p>En este espacio, podrás explorar nuestros proyectos y servicios. ¡Mantente al tanto de nuestras últimas actualizaciones y proyectos!</p>
+                    <div class="social-compact">
+                        <a href="https://web.facebook.com/MDelgadoPropiedades" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/delgado_propiedades" target="_blank" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@delgado_propiedades" target="_blank" title="Tiktok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><button class="footer-link" data-tab="inicio">Inicio</button></li>
+                        <li><button class="footer-link" data-tab="encuestas">Encuestas</button></li>
+                        <li><button class="footer-link" data-tab="contacto">Contacto</button></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Mariscal Nieto 480, Centro Comercial Boulevard</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+51 948 734 448</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>inmobiliaria.dpropiedades@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Delgado Propiedades. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
